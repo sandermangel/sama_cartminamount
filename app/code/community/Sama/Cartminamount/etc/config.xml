@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<config>
+	<modules>
+		<Sama_Cartminamount>
+			<version>1.0.0</version>
+		</Sama_Cartminamount>
+	</modules>
+	<global>
+		<models>
+			<sales>
+				<rewrite>
+					<quote_address>Sama_Cartminamount_Model_Sales_Quote_Address</quote_address>
+				</rewrite>
+			</sales>
+		</models>
+		<helpers>
+			<sama_cartminamount>
+				<class>Cartminamount_Helper</class>
+			</sama_cartminamount>
+		</helpers>
+	</global>
+
+    <default>
+        <sales>
+            <minimum_order>
+                <formula><![CDATA[{{grand_total}}]]></formula>
+            </minimum_order>
+        </sales>
+    </default>
+</config>
