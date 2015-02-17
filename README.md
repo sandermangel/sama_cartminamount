@@ -9,3 +9,4 @@ Rewrites the `Mage_Sales_Model_Quote_Address` class
 ##Roadmap##
 - find a solution for the `eval`
 - add per customer group functionality
+- maybe find a better name?
