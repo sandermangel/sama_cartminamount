@@ -23,7 +23,7 @@
     <default>
         <sales>
             <minimum_order>
-                <formula><![CDATA[{{grand_total}}]]></formula>
+                <formula><![CDATA[{{base_subtotal}}-{{base_discount_amount}}]]></formula>
             </minimum_order>
         </sales>
     </default>
